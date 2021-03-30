@@ -29,6 +29,9 @@
 </template>
 
 <script>
+// 总结：
+// 不推荐使用 mapActions mapMutations 映射的 ⭐方法，避免方法太混乱
+// 组件中只使用 mapState mapGetters 映射的 ⭐计算属性
 import { mapActions, mapState, mapMutations, mapGetters } from 'vuex'
 export default {
   name: 'app',
